@@ -1,0 +1,20 @@
+.navColour{
+       height: 70px;
+       width: 110px;
+    
+}
+.navColour a{
+    margin-top: 15px;
+    text-align: center;
+
+}
+.navColour:hover{
+   background-color: black;
+   font-family: Verdana;
+   letter-spacing: 2px;
+   transform: scale(1, 2);
+   font-weight:bold ;
+   text-transform: uppercase;
+   
+}
+
