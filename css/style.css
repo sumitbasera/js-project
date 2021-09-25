@@ -1,0 +1,109 @@
+.navColour{
+       height: 40px;
+       width: 110px;  
+}
+
+.navColour a{   
+    text-align: center;
+
+}
+.navColour:hover{
+   background-color: black;
+   font-family: Verdana;
+   letter-spacing: 2px;
+   transform: scale(1, 2);
+   transition: 1s;
+   font-weight:bold ;
+   text-transform: uppercase;
+   
+}
+.body{
+    background: url(../images/bgsnake.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#board{
+    background :linear-gradient(rgb(72, 214, 107), rgb(88, 88, 221));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px black;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+.snakeL{
+    width: 65vmin;
+    height: 100vmin;
+    align-self:flex-end;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.snakeL >img:hover{
+    transform: scale(2, 2);
+   transition: 1s;
+}
+.ppl{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+
+.snakeR{
+    width: 65vmin;
+    height: 82vmin;
+    align-self:flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snakeR >img:hover{
+    transform: scale(2, 2);
+   transition: 1s;
+}
+
+#scoreBox{
+    color: ivory;
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    color: ivory;
+    position: absolute;
+    top: 59px;
+    right: 180px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+
+.head{
+    background: linear-gradient(rgb(240, 2, 2), rgb(245, 9, 48));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: rgba(9, 199, 247, 0.705);
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(204, 236, 21), rgb(37, 248, 9));
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
