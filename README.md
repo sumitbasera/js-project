@@ -1,5 +1,5 @@
 # js-project
-## this project is developed for learning js and developing basic js games this website will also be handeling multiple api requests along with the user registeration and login 
+## This project is developed for learning js and developing basic js games this website will also be handeling multiple api requests along with the user registeration and login 
 
 # Technologies used 
  
