@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="./js/meme.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="./index.html">Basera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+           
+            <div class="navColour">     
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li> </div>
+            <div class="navColour">
+                <li class="nav-item">
+                  <a class="nav-link" href="./game.html">Game</a>
+                </li> </div>
+            <div class="navColour">
+            <li class="nav-item">
+              <a class="nav-link" href="meme.html">Memes</a>
+            </li> </div>
+            <div class="navColour">
+            <li class="nav-item">
+              <a class="nav-link" href="facts.html">Facts</a>
+            </li> </div>
+          </ul>
+         
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/sumitbasera">
+                  <img src="./images/github.svg" height="38px" width="50px" > 
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./login.html">
+                    <button type="button" class="btn btn-outline-dark">Login</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./signup.html">
+                    <button type="button" class="btn btn-dark">signup</button>
+                </a>
+            </li>
+        </ul>
+
+        </div>
+      </nav>
+         
+      <div class="contains">
+        <div class="meme" >
+            <img id="im" src="https://i.redd.it/gwn1prfb3vr71.jpg" id="pic" height="550px" width="600px" alt="not found 404">
+        </div>
+        <div class="me" id="score">
+            <h2 id="caption"></h2>
+            <br>
+            <div class="emer">
+                <h3 > UpVotes :- </h3>
+                <h3 id="likes"> </h3>
+            </div>
+            <br>
+            <div class="emer">
+                <h3 >PostBy :- </h3>
+                <h3 id="author">  </h3>
+                
+            </div>
+            <br>
+            <br>
+            <div class="emer">
+                <a class="nav-link" id="source" href="">
+                    <button type="button" class="btn btn-primary btn-lg">Original-Post</button>
+                </a>
+
+                <a class="nav-link" id="source2" href="">
+                    <button type="button" class="btn btn-primary btn-lg">Share</button>
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            <div class="emer">
+                <a class="nav-link" onclick="refresh()">
+                    <button type="button" class="btn btn-primary btn-lg">Next-Meme</button>
+                </a>
+
+                <a class="nav-link" id="source3" href="">
+                    <button type="button" class="btn btn-primary btn-lg">subreddit</button>
+                </a>
+            </div>
+        
+  
+  </div>
+        
+
+    </body>
+    </html>
