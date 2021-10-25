@@ -1,5 +1,5 @@
 let requestURLs = 'http://numbersapi.com/random/year?json';
-let requests = new XMLHttpRequest();
+let requests = new XMLHttpsRequest();
 requests.open('GET', requestURLs);
 requests.responseType = 'json';
 requests.send();
