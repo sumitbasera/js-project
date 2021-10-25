@@ -1,4 +1,4 @@
-let requestURLs = '//numbersapi.com/random/year?json';
+let requestURLs = "//numbersapi.com/random/year?json";
 let requests = new XMLHttpRequest();
 requests.open('GET', requestURLs);
 requests.responseType = 'json';
